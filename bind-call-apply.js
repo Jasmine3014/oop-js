@@ -27,3 +27,6 @@ var obj3={
 var res = add.call(obj3,10,3)
 console.log (res);
 
+//apply (argument should take in array)
+var res = add.apply(obj3,[10,8])
+console.log (res);
